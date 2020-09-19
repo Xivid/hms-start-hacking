@@ -33,11 +33,11 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn_better_me.setOnClickListener {
-            setContentView(R.layout.better_me)
+            startActivity(Intent(this, BetterMeActivity::class.java))
         }
 
         btn_show_me.setOnClickListener {
-            setContentView(R.layout.show_me)
+            startActivity(Intent(this, ShowMeActivity::class.java))
         }
     }
 
