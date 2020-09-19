@@ -31,9 +31,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".ShowMeActivity" />
-        <activity android:name=".BetterMeActivity" />
         <activity android:name=".PreferenceActivity" />
         <activity android:name=".CO2Activity" />
+        <activity android:name=".SwipeActivity" />
     </application>
 
 </manifest>

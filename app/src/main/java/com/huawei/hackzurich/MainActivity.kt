@@ -32,6 +32,10 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
+        btn_auto_order.setOnClickListener {
+            startActivity(Intent(this, SwipeActivity::class.java))
+        }
+
         btn_better_me.setOnClickListener {
             startActivity(Intent(this, PreferenceActivity::class.java))
         }

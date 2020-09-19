@@ -2,6 +2,7 @@ apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply plugin: 'com.huawei.agconnect'
+apply plugin: 'kotlin-kapt'
 
 def keystorePropertiesFile = rootProject.file("_signing/keystore.properties")
 def keystoreProperties = new Properties()
@@ -35,6 +36,19 @@ android {
             minifyEnabled false
             signingConfig signingConfigs.hms
         }
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = "1.8"
     }
 }
 
@@ -171,4 +185,12 @@ dependencies {
 
     // Wireless Kit: https://developer.huawei.com/consumer/en/hms/huawei-wirelesskit/
     implementation 'com.huawei.hms:wireless:5.0.1.305'
+
+    //add these dependencies
+    implementation 'com.google.android.material:material:1.2.0-alpha05'
+    implementation "com.yuyakaido.android:card-stack-view:2.3.4"
+    implementation 'com.facebook.fresco:fresco:2.1.0'
+
+    implementation 'com.squareup.retrofit2:retrofit:2.6.1'
+    implementation 'com.squareup.retrofit2:converter-gson:2.6.1'
 }
