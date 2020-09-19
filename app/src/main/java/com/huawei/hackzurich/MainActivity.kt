@@ -47,6 +47,10 @@ class MainActivity : AppCompatActivity() {
         btn_co2.setOnClickListener {
             startActivity(Intent(this, CO2Activity::class.java))
         }
+
+        btn_points.setOnClickListener {
+            startActivity(Intent(this, PointsActivity::class.java))
+        }
     }
 
     private suspend fun runHmsConfigurationCheck() {

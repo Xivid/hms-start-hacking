@@ -34,6 +34,7 @@
         <activity android:name=".PreferenceActivity" />
         <activity android:name=".CO2Activity" />
         <activity android:name=".SwipeActivity" />
+        <activity android:name=".PointsActivity" />
     </application>
 
 </manifest>
