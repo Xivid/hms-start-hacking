@@ -13,7 +13,7 @@ interface TinderAPI {
     companion object {
         operator fun invoke(): TinderAPI {
             return Retrofit.Builder()
-                .baseUrl("https://api.simplifiedcoding.in/course-apis/tinder/")
+                .baseUrl("http://data.ethz.xyz/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build()
                 .create(TinderAPI::class.java)

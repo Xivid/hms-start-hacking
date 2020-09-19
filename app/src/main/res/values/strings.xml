@@ -3,4 +3,5 @@
     <string name="checking_setup">Checking HMS setup ...</string>
     <string name="checking_setup_result_ok">HMS Status OK</string>
     <string name="checking_setup_result_fail">HMS Issue found: %1$s</string>
+    <string name="action_settings">Dietary Preferences</string>
 </resources>
