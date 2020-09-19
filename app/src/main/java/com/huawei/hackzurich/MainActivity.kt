@@ -1,11 +1,13 @@
 package com.huawei.hackzurich
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.coroutineScope
 import com.huawei.hms.common.ApiException
+import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
@@ -28,6 +30,10 @@ class MainActivity : AppCompatActivity() {
                 checkStatusTextView.text =
                     getString(R.string.checking_setup_result_fail, checkException.message)
             }
+        }
+
+        btn_better_me.setOnClickListener {
+            setContentView(R.layout.better_me)
         }
     }
 
