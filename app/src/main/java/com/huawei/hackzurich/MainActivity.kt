@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         btn_better_me.setOnClickListener {
-            startActivity(Intent(this, BetterMeActivity::class.java))
+            startActivity(Intent(this, PreferenceActivity::class.java))
         }
 
         btn_show_me.setOnClickListener {
