@@ -35,6 +35,10 @@ class MainActivity : AppCompatActivity() {
         btn_better_me.setOnClickListener {
             setContentView(R.layout.better_me)
         }
+
+        btn_show_me.setOnClickListener {
+            setContentView(R.layout.show_me)
+        }
     }
 
     private suspend fun runHmsConfigurationCheck() {
