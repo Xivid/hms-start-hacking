@@ -31,6 +31,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ShowMeActivity" />
+        <activity android:name=".BetterMeActivity" />
+        <activity android:name=".PreferenceActivity" />
     </application>
 
 </manifest>

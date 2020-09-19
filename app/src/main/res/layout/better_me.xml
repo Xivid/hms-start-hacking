@@ -7,7 +7,7 @@
     android:layout_height="match_parent">
 
     <Button
-        android:id="@+id/get_fit"
+        android:id="@+id/btn_get_fit"
         android:layout_width="110dp"
         android:layout_height="239dp"
         android:text="Get Fit"
@@ -19,7 +19,7 @@
         app:layout_constraintVertical_bias="0.432" />
 
     <Button
-        android:id="@+id/stay_fit"
+        android:id="@+id/btn_stay_fit"
         android:layout_width="110dp"
         android:layout_height="239dp"
         android:text="Stay Fit"
