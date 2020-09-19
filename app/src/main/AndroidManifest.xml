@@ -33,6 +33,7 @@
         <activity android:name=".ShowMeActivity" />
         <activity android:name=".BetterMeActivity" />
         <activity android:name=".PreferenceActivity" />
+        <activity android:name=".CO2Activity" />
     </application>
 
 </manifest>
