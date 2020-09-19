@@ -5,11 +5,11 @@ android:layout_width="match_parent"
 android:layout_height="match_parent"
 tools:context=".MainActivity">
 
-<!--<com.yuyakaido.android.cardstackview.CardStackView-->
-<!--    android:id="@+id/stack_view"-->
-<!--    android:layout_width="380dp"-->
-<!--    android:layout_height="404dp"-->
-<!--    android:layout_centerHorizontal="true"-->
-<!--    android:layout_marginTop="12dp" />-->
+<com.yuyakaido.android.cardstackview.CardStackView
+    android:id="@+id/stack_view"
+    android:layout_width="380dp"
+    android:layout_height="404dp"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="12dp" />
 
 </RelativeLayout>
