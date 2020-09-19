@@ -67,7 +67,7 @@
         app:layout_constraintVertical_bias="0.603" />
 
     <Button
-        android:id="@+id/button8"
+        android:id="@+id/btn_co2"
         android:layout_width="126dp"
         android:layout_height="74dp"
         android:text="Lower My CO2"
