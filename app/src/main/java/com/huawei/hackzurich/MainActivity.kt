@@ -1,18 +1,16 @@
 package com.huawei.hackzurich
 
-import android.content.Intent
 import android.os.Bundle
-import android.util.Log
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.coroutineScope
-import com.huawei.hms.common.ApiException
+import com.huawei.hackzurich.R.layout.preference
 import kotlinx.android.synthetic.main.activity_main.*
+import kotlinx.android.synthetic.main.better_me.*
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import java.lang.Exception
-import java.lang.IllegalStateException
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         btn_better_me.setOnClickListener {
             setContentView(R.layout.better_me)
         }
+
     }
 
     private suspend fun runHmsConfigurationCheck() {
