@@ -46,6 +46,7 @@ class SwipeActivity : AppCompatActivity(), CardStackListener {
                 }
             }
         })
+
     }
 
     override fun onCardDisappeared(view: View?, position: Int) {
