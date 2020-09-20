@@ -25,8 +25,8 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <!--        <activity android:name="com.huawei.hackzurich.MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar">-->
-        <activity android:name="com.huawei.hackzurich.MainActivity">
+        <activity android:name="com.huawei.hackzurich.MainActivity" android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+<!--        <activity android:name="com.huawei.hackzurich.MainActivity">-->
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
