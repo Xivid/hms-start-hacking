@@ -1,5 +1,6 @@
 package com.huawei.hackzurich
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -46,6 +47,10 @@ class SwipeActivity : AppCompatActivity(), CardStackListener {
                 }
             }
         })
+
+        imageView6.setOnClickListener {
+            setContentView(R.layout.recipesplan)
+        }
 
     }
 

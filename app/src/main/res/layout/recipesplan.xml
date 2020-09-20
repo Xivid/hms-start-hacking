@@ -5,4 +5,17 @@
     android:id="@+id/recipestable"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:accessibilityLiveRegion="none"/>
+    android:accessibilityLiveRegion="none">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="293dp"
+        android:layout_height="248dp"
+        android:text="Thanks for your purchase. Your meal plan has been saved. \n\n\nYou will be notified to consume your products on schedule."
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.445" />
+</androidx.constraintlayout.widget.ConstraintLayout>
