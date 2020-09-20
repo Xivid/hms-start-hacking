@@ -11,7 +11,8 @@
 
     <!-- Settings, should always be in the overflow -->
     <item android:id="@+id/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"
         android:title="@string/action_settings"
-        app:showAsAction="never"/>
+        app:showAsAction="ifRoom"/>
 
 </menu>
